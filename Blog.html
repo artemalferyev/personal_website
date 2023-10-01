@@ -103,8 +103,14 @@ In the years following the premiere of "R.U.R.," the term "robot" gained interna
 
     </div>
 
-    <footer>
-        © 2023 Artem Alferyev
+     <footer>
+    &copy; <span id="current-year"></span> Artem Alferyev
     </footer>
+    
+    <script>
+    const currentYear = new Date().getFullYear();
+    document.getElementById('current-year').textContent = currentYear;
+    </script>
+    
 </body>
 </html>
