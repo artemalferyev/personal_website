@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #007a85;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem; /* Increased font size for header */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold; /* Added font weight for navigation links */
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; /* Added border radius for a modern look */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+    font-size: 1.5rem; /* Increased font size for section headings */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007a85;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px; /* Separated footer from the rest of the content */
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s; /* Added smooth color transition on hover */
+}
+
+a:hover {
+    color: #00bcd4; /* Changed hover color for links */
+}
+
+/* Improved Blog and Image Styles */
+.image-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.java,
+.javascript {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.java img,
+.javascript img {
+    max-width: 100px;
+}
+
+.contact {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
+
+.contact p {
+    font-size: 1rem;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #0078d4;
+    font-weight: bold;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+}
+
+.blog-gap {
+    height: 20px;
+}
+
+.blog-image {
+    margin-left: 20px;
+}
