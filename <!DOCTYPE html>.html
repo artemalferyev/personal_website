@@ -98,8 +98,15 @@
       </address>
       </section>
       </div>
+    
       <footer>
-        &copy; 2023 Artem Alferyev
+    &copy; <span id="current-year"></span> Artem Alferyev
     </footer>
+    
+    <script>
+    const currentYear = new Date().getFullYear();
+    document.getElementById('current-year').textContent = currentYear;
+    </script>
+    
 </body>
 </html>
