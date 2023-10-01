@@ -1,7 +1,6 @@
 Personal Website Repository
 
-Welcome to the repository for my personal website. This website is designed to showcase my work, share information about me, and provide a platform for connecting with others. Below, you'll find a detailed guide on how to navigate and contribute to this repository.
-
+Welcome to the repository for my personal website. This website is designed to showcase my work, share information about me, and provide a platform for connecting with others.
 Table of Contents
 
 Overview
