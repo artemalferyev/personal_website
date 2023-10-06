@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
 
     <meta name="description" content="Welcome to the website of Artem Alferyev,a Junior FullStack Developer. Explore my skills and projects in the universe of programming.">
 
-    <meta name="keywords" content="Artem Alferyev, Junior Java Developer, Junior FullStack Developer, Junior Developer, Java, FullStack, Programming, Portfolio">
+    <meta name="keywords" content="Artem Alferyev | Junior FullStack Developer">
    
     <meta name="author" content="Artem Alferyev">
     
@@ -27,7 +27,7 @@
     <header>
         <h1><a href="https://artemalferyev.com"> Artem Alferyev</a></h1>
         <br>
-        <p><a href="https://artemalferyev.com">Junior Full_Stack Developer</a></p>
+        <h1 id="animatedTitle"></h1>
         <br>
         <nav>
             <ul>
@@ -43,12 +43,11 @@
     <div class="container">
         <section>
     <p> Greetings, visitors! </p>
-    <p> Thank you for dropping by my website. Feel free to explore my social networks, and most importantly GitHub.</p>
         </section>
 
       <section>
     <h2>Programming Languages:</h2>
-    <ul class="image-list">
+    <ul class="image-wrapper">
         <li class="java">
             <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">
                 <img src="https://cdn.iconscout.com/icon/free/png-256/free-java-2038875-1720088.png?f=webp" alt="Java">
@@ -85,28 +84,48 @@
         </section>
 
         <section>
+        <br>    
         <h3>Codewars' badge: </h3>
         <a href="https://www.codewars.com/users/artemalferyev" target="_blank">
         <img src="https://www.codewars.com/users/artemalferyev/badges/large" alt="CodeWars Badge" width="300" height="300" style="margin-top: -120px; margin-bottom: -120px;">
         </a>
-        </section>
-      <section class="contact">
-      <h3>Contact Information</h3>
-      <address>
+        <br>
+
+        <section class="contact">
+        <h3>Contact Information</h3>
+        <address>
         <p>Email: <a href="mailto:art.alferyev@gmail.com">art.alferyev@gmail.com</a></p>
         <p>Phone: +351 968 636 585</p>
-      </address>
-      </section>
-      </div>
-    
-      <footer>
-    &copy; <span id="current-year"></span> Artem Alferyev
-    </footer>
-    
-    <script>
-    const currentYear = new Date().getFullYear();
-    document.getElementById('current-year').textContent = currentYear;
-    </script>
-    
+        </address>
+        </section>
+        </div>
+
+        <script>
+        const typingText = 'Junior Full_Stack Developer';
+        let index = 0;
+
+        function typeAnimation() {
+        if (index < typingText.length) {
+        document.getElementById('animatedTitle').innerHTML += typingText.charAt(index);
+        index++;
+        setTimeout(typeAnimation, 100); 
+        }
+        }
+
+        window.addEventListener('load', typeAnimation);
+        </script>
+
+       <script>
+       document.addEventListener("DOMContentLoaded", function() {
+        const currentYear = new Date().getFullYear();
+        document.getElementById('current-year').textContent = currentYear;
+        });
+       </script>
+
+       <footer>
+       <p>&copy; <span id="current-year"></span>
+       All rights reserved.
+       </p>
+</footer>
 </body>
 </html>
