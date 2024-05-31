@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #f0f0f0cc;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; 
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+    font-size: 1.5rem; 
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0078d4; 
+    font-weight: bold;
+    transition: color 0.3s; 
+}
+
+ul li a:hover {
+    color: #000000; 
+}
+
+footer {
+    background-color: #b8b8b8cb;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+a:hover {
+    color: #000000; 
+}
+
+.java,
+.javascript {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.image-wrapper {
+    margin-right: 10px;
+}
+
+.image-wrapper img {
+    max-width: 60px;
+    height: auto; 
+}
+
+.java .image-wrapper {
+    margin-right: 0; 
+}
+    
+.contact {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #b8b8b8cb;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contact p {
+    font-size: 1rem; 
+}
+
+.contact a {
+    text-decoration: none;
+    color: #0078d4;
+    font-weight: bold;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+}
+
+.blog-gap {
+    height: 20px;
+}
+
+.blog-image {
+    margin-left: 20px;
+}
+.sidebar {
+    flex: 1; 
+    position: sticky;
+    top: 20px;
+}
