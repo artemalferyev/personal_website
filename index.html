@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artem_Alferyev_Full_Stack_Developer</title>
+
+    <meta name="description" content="Welcome to the website of Artem Alferyev,a Junior FullStack Developer. Explore my skills and projects in the universe of programming.">
+
+    <meta name="keywords" content="Artem Alferyev | Junior FullStack Developer">
+   
+    <meta name="author" content="Artem Alferyev">
+    
+    <meta property="og:title" content="Artem Alferyev, Junior Java Developer | Junior FullStack Developer">
+    <meta property="og:description" content="Welcome to the website of Artem Alferyev,a Junior FullStack Developer. Explore my skills and projects in the universe of programming.">
+    <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt.linkedin.com%2Fin%2Fartem-alferyev%2Fpt&psig=AOvVaw3odZSfjxbQXtiYHPIEwq4s&ust=1696003064770000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCOCOxfPVzYEDFQAAAAAdAAAAABAD">
+    <meta property="og:url" content="https://artemalferyev.com">
+    <meta property="og:type" content="website">
+     
+    <link rel="stylesheet" href="assets/css/styles.css">
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://artemalferyev.com"> Artem Alferyev</a></h1>
+        <br>
+        <h1 id="animatedTitle"></h1>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/artemalferyev" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/artem-alferyev/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://twitter.com/artem_alferyev" target="_blank"><i class="fab fa-twitter"></i>X</a></li>
+                <li><a href="https://www.instagram.com/alferyevartem" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section>
+    <p> Greetings, visitors! </p>
+        </section>
+
+      <section>
+    <h2>Programming Languages:</h2>
+    <ul class="image-wrapper">
+        <li class="java">
+            <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-java-2038875-1720088.png?f=webp" alt="Java">
+            </a>
+        </li>
+        <li class="javascript">
+            <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
+                <img src="https://www.globalcloudteam.com/wp-content/uploads/2022/09/javascript.png" alt="JavaScript">
+            </a>
+        </li>
+    </ul>
+</section>
+        <section>
+            <h2>Skills:</h2>
+            <br>
+            <dl>
+                <li><i class="fas fa-cogs"></i> Object-Oriented Programming (OOP)</li>
+                <li><i class="fas fa-database"></i> Database Management</li>
+                <li><i class="fas fa-cloud"></i> Cloud computing</li>
+                <li><i class="fas fa-th"></i> Model-View-Controller (MVC)</li>
+                <li><i class="fas fa-globe"></i> REST APIs</li>
+                <li><i class="fas fa-file-code"></i> ECMAScript</li>
+                <li><i class="fas fa-server"></i> Tomcat</li>
+                <li><i class="fas fa-cog"></i> Maven</li>
+                <li><i class="fas fa-tasks"></i> Scrum</li>
+                <li><i class="fas fa-check-square"></i> Agile Methodologies</li>
+                <li><i class="fas fa-bug"></i> Testing</li>
+                <li><i class="fas fa-database"></i> SQL</li>
+                <li><i class="fab fa-git"></i> Git</li>
+                <li><i class="fab fa-html5"></i> HTML</li>
+                <li><i class="fab fa-css3"></i> CSS</li>
+                <li><i class="fas fa-code"></i> SOAP</li>
+            </dl>    
+        </section>
+
+        <section>
+        <br>    
+        <h3>Codewars' badge: </h3>
+        <a href="https://www.codewars.com/users/artemalferyev" target="_blank">
+        <img src="https://www.codewars.com/users/artemalferyev/badges/large" alt="CodeWars Badge" width="300" height="300" style="margin-top: -120px; margin-bottom: -120px;">
+        </a>
+        <br>
+
+        <section class="contact">
+        <h3>Contact Information</h3>
+        <address>
+        <p>Email: <a href="mailto:art.alferyev@gmail.com">art.alferyev@gmail.com</a></p>
+        <p>Phone: +351 968 636 585</p>
+        </address>
+        </section>
+        </div>
+
+        <script>
+        const typingText = 'Junior Full_Stack Developer';
+        let index = 0;
+
+        function typeAnimation() {
+        if (index < typingText.length) {
+        document.getElementById('animatedTitle').innerHTML += typingText.charAt(index);
+        index++;
+        setTimeout(typeAnimation, 100); 
+        }
+        }
+
+        window.addEventListener('load', typeAnimation);
+        </script>
+
+       <script>
+       document.addEventListener("DOMContentLoaded", function() {
+        const currentYear = new Date().getFullYear();
+        document.getElementById('current-year').textContent = currentYear;
+        });
+       </script>
+
+       <footer>
+       <p>&copy; <span id="current-year"></span>
+       All rights reserved.
+       </p>
+</footer>
+</body>
+</html>
